@@ -9,3 +9,7 @@ Konsol çıktısı: Yarıçapı (Yarıçap) olan dairenin alanı: (Alan) şeklin
 let arguments = process.argv.slice(2);
 let yaricap = arguments[0]*1
 const piSayisi = 3.14;
+
+let alan = piSayisi * (yaricap*yaricap)
+
+console.log(`Yarıçapı ${yaricap} olan dairenin alanı: ${alan}`)
