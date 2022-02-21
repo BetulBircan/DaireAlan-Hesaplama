@@ -1,9 +1,10 @@
 # DaireAlaniHesaplamaNode.js
 Bu projeyi node.js javascript çalışma ortamında yarıçap değerini konsoldan parametre olarak girerek alanı bulmaya çalışmak için oluşturdum. Konsol çıktısı: Yarıçapı (Yarıçap) olan dairenin alanı: (Alan) şeklinde olacaktır.
 
-**NOT: Process nesnesi node.js e ait olan global nesnelerden bir tanesidir ve bize o anki işlemle ilgili  bilgi verir.
-       Process in argv özelliği bize array olarak döner ve bu array programı çalıştırırken kullandığımız parametrelerdir.
-       process.argv.slice(2) diyerek ilk iki parametreyi çıkartıyoruz.**
+**NOT: 
+Process nesnesi node.js e ait olan global nesnelerden bir tanesidir ve bize o anki işlemle ilgili  bilgi verir.
+Process in argv özelliği bize array olarak döner ve bu array programı çalıştırırken kullandığımız parametrelerdir.
+process.argv.slice(2) diyerek ilk iki parametreyi çıkartıyoruz.**
 
 Yarıçapı konsoldan parametre olarak almak için process nesnesinden yararlandım. Daha sonra da dairenin alanını hesaplamak için değişkenleri ve formülleri tanımladım ve ekrana yazdırdım.
 
