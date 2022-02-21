@@ -10,6 +10,8 @@ let arguments = process.argv.slice(2);
 let yaricap = arguments[0]*1
 const piSayisi = 3.14;
 
+//Formülü tanımlama
 let alan = piSayisi * (yaricap*yaricap)
 
+//Ekrana Yazdırma
 console.log(`Yarıçapı ${yaricap} olan dairenin alanı: ${alan}`)
